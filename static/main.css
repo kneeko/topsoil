@@ -148,6 +148,10 @@ html, body
 		height: 65px;
 		padding: 5px;
 	}
+	.hero
+	{
+		margin-top: 5em;
+	}
 }
 
 @media (max-width: 420px)
