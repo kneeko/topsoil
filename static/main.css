@@ -136,12 +136,8 @@ html, body
 
 }
 
-@media (max-width: 400px)
+@media (max-width: 500px)
 {
-	body
-	{
-		font-size: 18px;
-	}
 	.queue
 	{
 		width: 320px;
@@ -151,6 +147,14 @@ html, body
 		width: 65px;
 		height: 65px;
 		padding: 5px;
+	}
+}
+
+@media (max-width: 420px)
+{
+	body
+	{
+		font-size: 18px;
 	}
 
 }
