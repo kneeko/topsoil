@@ -1,0 +1,165 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	/*background: #d6d6d6;*/
+	color: #2e2e2e;
+	font-size: 20px;
+	background: #f5e0c0 url(noise.png) repeat;
+}
+
+.hero
+{
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 6.5em;
+}
+
+.hero .title
+{
+	font-family: "proxima-nova-soft", Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+	letter-spacing: 0.1em;
+	margin-bottom: 0;
+	color: #4c3030;
+}
+
+.hero .subtitle
+{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.9em;
+	margin: 0;
+	color: #caa495;
+}
+
+.hero p
+{
+	font-size: 1.4em;
+}
+
+.queue
+{
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	width: 500px;
+	text-indent: 0;
+	margin: 0.5em 0 1.5em 0;
+}
+
+.queue li
+{
+	display: inline-block;
+	margin: 0;
+	font-size: 16px;
+}
+
+.queue li div
+{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+.queue li div img
+{
+	max-width: 90%;
+	max-height: 90%;
+}
+
+.queue li:first-child
+{
+	-webkit-animation: pulse 1.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -webkit-animation-iteration-count: infinite; 
+}
+
+@-webkit-keyframes pulse {
+    0% {-webkit-transform: scale(1.0, 1.0); }
+    50% {-webkit-transform: scale(1.25, 1.2); }
+    100% {-webkit-transform: scale(1.0, 1.0); }
+}
+
+.sign-up
+{
+	text-align: left;
+	max-width: 20.5em;
+	display: inline-block;
+	padding: 0 1em;
+}
+
+.sign-up p
+{
+	margin: 0;
+	margin-bottom: 0.5em;
+	color: #4c3030;
+}
+
+.sign-up input[type="email"],
+.sign-up input[type="submit"]
+{
+	border: none;
+	border-radius: 8px;
+	padding: 12px 12px;
+	margin: 0;
+}
+
+
+
+.sign-up input[type="submit"]
+
+{
+	position: relative;
+	width: 5em;
+	left: 1em;
+	background: #2e2e2e;
+	color: white;
+	border: 1px solid #1b1b1b;
+
+}
+
+.sign-up input[type="submit"]
+:hover
+{
+	background: #1b1b1b;
+	cursor: pointer;
+}
+
+.sign-up input[type="email"]
+{
+	width: 12.5em;
+	background: #ffffff;
+	color: #2e2e2e;
+	border: 1px solid #fafafa;
+
+}
+
+@media (max-width: 400px)
+{
+	body
+	{
+		font-size: 18px;
+	}
+	.queue
+	{
+		width: 320px;
+	}
+	.queue li div
+	{
+		width: 65px;
+		height: 65px;
+		padding: 5px;
+	}
+
+}
+
+@media (max-width: 350px)
+{
+	body
+	{
+		font-size: 15px;
+	}
+
+}
