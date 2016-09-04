@@ -112,7 +112,7 @@ html, body
 {
 	position: relative;
 	width: 5em;
-	left: 1em;
+	left: 0.75em;
 	background: #2e2e2e;
 	color: white;
 	border: 1px solid #1b1b1b;
@@ -128,7 +128,7 @@ html, body
 
 .sign-up input[type="email"]
 {
-	width: 12.5em;
+	width: 12.75em;
 	background: #ffffff;
 	color: #2e2e2e;
 	border: 1px solid #fafafa;
